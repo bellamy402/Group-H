@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style1.css">
+    
+<style>
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.div {
+    border-radius: 5px;
+    background-color: #f8f5f5;
+    width: 30%;
+    margin: 50px auto;
+    padding: 5%;
+    
+    
+}
+</style>
+<body background="Images/bg14.png">
+
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+    <img src="Images/logo-total.jpg" alt="TOTAL" style="width: 150;height: 80px;"> 
+    <ul>
+      <li ><a href="Home.html">Home</a></li>
+      <li ><a href="about.html" >About Us</a></li>
+      <li  ><a href="services.html">SERVICES</a></li>
+      <li  ><a href="marketing.html">Marketing</a></li>
+      <li ><a href="Product.html" >Product</a></li>
+      <li   class="active"><a href="contact.html">Contact us</a></li>
+      <li ><a href="Resources.html">Resources</a></li>
+      <li  ><a href="Staffs.html">Staff</a></li>
+    </ul>
+  </nav> <br><br><br><br><br>
+
+<div class="div">
+  <form action="#">
+    <label for="fname"><p class="p">First Name</p></label>
+    <input type="text" id="fname" name="firstname">
+
+    <label for="lname"><p class="p">Last Name</p></label>
+    <input type="text" id="lname" name="lastname">
+
+    <label for="country"><p class="p">City</p></label>
+    <select id="country" name="country">
+      <option value="australia">Freetown</option>
+      <option value="canada">Kenema</option>
+      <option value="usa">Bo</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+
+   <!--footer-->
+   <div class="content1">
+    <div class="text"></div>
+    <div class="p"></div>
+  </div>
+  <footer>
+    <div class="main-content">
+      <div class="left box">
+        <h2>About us</h2>
+        <div class="content">
+          <p>Total Filling Station Where you can refill your vechile, with excelium product that will clean your vechile engine</p>
+          <div class="social">
+            <a href="#"><span class="fab fa-facebook-f"></span></a>
+            <a href="#"><span class="fab fa-twitter"></span></a>
+            <a href="#"><span class="fab fa-instagram"></span></a>
+            <a href="#"><span class="fab fa-youtube"></span></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="center box">
+        <h2>Address</h2>
+        <div class="content">
+          <div class="place">
+            <span class="fas fa-map-marker-alt"></span>
+            <span class="text">Sillicon Hills Mile 91</span>
+          </div>
+          <div class="phone">
+            <span class="fas fa-phone-alt"></span>
+            <span class="text">+232-765432100</span>
+          </div>
+          <div class="email">
+            <span class="fas fa-envelope"></span>
+            <span class="text">abjalloh@gmail.com</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="right box">
+        <h2>Contact us</h2>
+        <div class="content">
+          <form   action="#">
+            <div class="email">
+              <div class="text"> <h3 class="a">Email:</h3></div>
+              <input class="a" type="email" required>
+            </div>
+            <div class="msg">
+              <div class="text"><h3 class="a">Message:</h3></div>
+              <textarea rows="2" cols="25" required></textarea>
+            </div>
+            <div class="btn">
+              <button type="submit">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="bottom">
+      <center>
+        <span class="credit">Created By <a href="#">Group H</a> | </span>
+        <span class="far fa-copyright"></span><span> 2021 All rights reserved.</span>
+      </center>
+    </div>
+  </footer>
+</body>
+
+<!-- Mirrored from www.w3schools.com/css/tryit.asp?filename=trycss_forms by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 13 Mar 2016 11:04:37 GMT -->
+</html>

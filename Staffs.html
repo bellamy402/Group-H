@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Staff</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="CSS/style1.css">
+<style>
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+</style>
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <img src="Images/logo-total.jpg" alt="TOTAL" style="width: 150;height: 80px;"> 
+        <ul>
+          <li ><a href="Home.html">Home</a></li>
+          <li  ><a href="about.html" >About Us</a></li>
+          <li  ><a href="services.html">SERVICES</a></li>
+          <li  ><a href="marketing.html">Marketing</a></li>
+          <li ><a href="Product.html" >Product</a></li>
+          <li  ><a href="contact.html">Contact Us</a></li>
+          <li ><a href="Resources.html">Resources</a></li>
+          <li  class="active"><a href="Staffs.html">Staff</a></li>
+        </ul>
+      </nav> <br><br><br><br><br>
+      <h2 class="h2" style="text-align: center;">Team Members</h2>
+
+   <br>
+
+<div class="row">
+  <div style="width: 25%;" class="column">
+    <div class="card">
+      <img src="Images/jay.jpg"Jane" style="width:100%">
+      <div class="container">
+        <h2>Musa Jawara</h2>
+        <p class="title">Web Designer</p>
+        <p>Designing the web pages using CSS</p>
+        <p>musajawara@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div style="width: 25%;" class="column">
+    <div class="card">
+      <img src="Images/kay.jpg"Jane" style="width:100%">
+      <div class="container">
+        <h2>Alusine Kayten koroma</h2>
+        <p class="title">Information Archet</p>
+        <p>Information Produce </p>
+        <p>alusinekay@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+
+  <div style="width: 25%;" class="column">
+    <div class="card">
+      <img src="Images/pat.jpg"Jane" style="width:100%">
+      <div class="container">
+        <h2>Almamy Kamara</h2>
+        <p class="title">Project manager</p>
+        <p>planning, monitoring, Executing Project</p>
+        <p>akamara@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+
+  < <div style="width: 25%;" class="column">
+    <div class="card">
+      <img src="Images/a.jpeg"Jane" style="width:100%">
+      <div class="container">
+        <h2>Alpha Bella Jalloh</h2>
+        <p class="title">Front end developer.</p>
+        <p>Structuring html file</p>
+        <p>abjalloh@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!--footer-->
+<div class="content1">
+    <div class="text"></div>
+    <div class="p"></div>
+  </div>
+  <footer>
+    <div class="main-content">
+      <div class="left box">
+        <h2>About us</h2>
+        <div class="content">
+          <p>Total Filling Station Where you can refill your vechile, with excelium product that will clean your vechile engine </p>
+          <div class="social">
+            <a href="#"><span class="fab fa-facebook-f"></span></a>
+            <a href="#"><span class="fab fa-twitter"></span></a>
+            <a href="#"><span class="fab fa-instagram"></span></a>
+            <a href="#"><span class="fab fa-youtube"></span></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="center box">
+        <h2>Address</h2>
+        <div class="content">
+          <div class="place">
+            <span class="fas fa-map-marker-alt"></span>
+            <span class="text">Sillicon Hills Mile 91</span>
+          </div>
+          <div class="phone">
+            <span class="fas fa-phone-alt"></span>
+            <span class="text">+232-765432100</span>
+          </div>
+          <div class="email">
+            <span class="fas fa-envelope"></span>
+            <span class="text">abjalloh@gmail.com</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="right box">
+        <h2>Contact us</h2>
+        <div class="content">
+          <form   action="#">
+            <div class="email">
+              <div class="text"> <h3 class="a">Email:</h3></div>
+              <input class="a" type="email" required>
+            </div>
+            <div class="msg">
+              <div class="text"><h3 class="a">Message:</h3></div>
+              <textarea rows="2" cols="25" required></textarea>
+            </div>
+            <div class="btn">
+              <button type="submit">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="bottom">
+      <center>
+        <span class="credit">Created By <a href="#">Group H</a> | </span>
+        <span class="far fa-copyright"></span><span> 2021 All rights reserved.</span>
+      </center>
+    </div>
+  </footer>
+
+</body>
+</html>

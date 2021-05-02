@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style1.css">
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars" id="menu"></i>
+      </label>
+      <img src="Images/logo-total.jpg" alt="TOTAL" style="width: 150;height: 80px;"> 
+      <ul>
+        <li class="active"><a href="Home.html">Home</a></li>
+        <li  ><a href="about.html" >About Us</a></li>
+        <li  ><a href="services.html">SERVICES</a></li>
+        <li  ><a href="marketing.html">Marketing</a></li>
+        <li ><a href="Product.html" >Product</a></li>
+        <li  ><a href="contact.html">Contact Us</a></li>
+        <li ><a href="Resources.html">Resources</a></li>
+        <li  ><a href="Staffs.html">Staff</a></li>
+      </ul>
+    </nav> <br><br><br><br><br>
+    <p class="p">
+      Bonjour, a traditional French greeting that means "good day," has been embraced as a global TOTAL term that guarantees a high and consistent standard of skilled customer service. The model also provides a product line of national and international appeal, as the products stocked are instantly recognizable. Customers may rely on the goods and service regardless of their venue.
+      At Total, we have four cornerstone behaviours that enable us make a difference through the way we conduct ourselves both internally & externally. These we refer to as the TOTAL Attitude: <br>
+      Listening: We are attentive to the people around us.<br>
+      Mutual Support: We support each other during the good and bad times.<br>
+      Boldness: We break the mood and think outside the box. <br>
+      Cross-functionality: We take advantage of our synergies. <br>     
+    </p><br>
+
+     <div class="w3-content w3-section"  >
+        <img class="mySlides" src="Images/bg1.jpg" style="width:110%">
+        <img class="mySlides" src="Images/bg10.jpg" style="width:110%">
+        <img class="mySlides" src="Images/bg11.jpg" style="width:110%">
+        <img class="mySlides" src="Images/bg6.jpg" style="width:110%">
+        <img class="mySlides" src="Images/bg8.jpg" style="width:110%">
+      </div>
+
+     <!--footer-->
+     <div class="content1">
+      <div class="text"></div>
+      <div class="p"></div>
+    </div>
+    <footer>
+      <div class="main-content">
+        <div class="left box">
+          <h2>About us</h2>
+          <div class="content">
+            <p>Total Filling Station Where you can refill your vechile, with excelium product that will clean your vechile engine</p>
+            <div class="social">
+              <a href="#"><span class="fab fa-facebook-f"></span></a>
+              <a href="#"><span class="fab fa-twitter"></span></a>
+              <a href="#"><span class="fab fa-instagram"></span></a>
+              <a href="#"><span class="fab fa-youtube"></span></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="center box">
+          <h2>Address</h2>
+          <div class="content">
+            <div class="place">
+              <span class="fas fa-map-marker-alt"></span>
+              <span class="text">Sillicon Hills Mile 91</span>
+            </div>
+            <div class="phone">
+              <span class="fas fa-phone-alt"></span>
+              <span class="text">+232-765432100</span>
+            </div>
+            <div class="email">
+              <span class="fas fa-envelope"></span>
+              <span class="text">abjalloh@gmail.com</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="right box">
+          <h2>Contact us</h2>
+          <div class="content">
+            <form   action="#">
+              <div class="email">
+                <div class="text"> <h3 class="a">Email:</h3></div>
+                <input class="a" type="email" required>
+              </div>
+              <div class="msg">
+                <div class="text"><h3 class="a">Message:</h3></div>
+                <textarea rows="2" cols="25" required></textarea>
+              </div>
+              <div class="btn">
+                <button type="submit">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="bottom">
+        <center>
+          <span class="credit">Created By <a href="https://youtube.com/c/codingnepal">Group H</a> | </span>
+          <span class="far fa-copyright"></span><span> 2021 All rights reserved.</span>
+        </center>
+      </div>
+    </footer>
+    <script>
+      var myIndex = 0;
+      carousel();
+      
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+      }
+      </script>
+  
+  </body>
+</html>
